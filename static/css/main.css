@@ -20,7 +20,8 @@ a {
   text-decoration: none;
 }
 
-a:visited {
+a:visited,
+a:link {
   color: #101f3c;
 }
 
@@ -40,6 +41,7 @@ header {
   position: sticky;
   top: 0;
   background-color: var(--bg-white);
+  z-index: 10;
 }
 
 header .countries {
@@ -110,6 +112,7 @@ header nav ul li a:hover {
 
 /* main */
 main {
+  position: relative;
   width: 100%;
 }
 #pitch {
@@ -148,4 +151,35 @@ main {
   border-radius: 20px;
   color: white;
   font-weight: 500;
+  transition: all 0.2s linear;
+}
+
+#pitch div a:hover {
+  opacity: 0.8;
+}
+
+#help {
+  position: fixed;
+  right: 25px;
+  bottom: 15px;
+  display: flex;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: lightblue;
+  border-radius: 50%;
+  padding: 10px;
+  color: #222;
+  cursor: pointer;
+  font-size: 20px;
+  opacity: 0.7;
+  transition: all 0.2s ease-in;
+}
+
+#help:hover {
+  opacity: 1;
+}
+
+#help svg {
+  margin: 0 auto;
 }
