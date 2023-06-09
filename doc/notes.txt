@@ -1,0 +1,4 @@
+fontawesome version 4 for icons
+    - Website - https://fontawesome.com/v4/get-started/
+    -cdn - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+
