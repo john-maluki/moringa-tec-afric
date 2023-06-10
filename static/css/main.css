@@ -134,10 +134,14 @@ main {
   background-color: lightblue;
   background: url("https://moringaschool.com/wp-content/uploads/2021/10/intro.jpg");
   height: 89vh;
-  filter: brightness(0.9);
+  opacity: 0.8;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #pitch div {
+  opacity: 1;
   width: 50%;
   position: absolute;
   top: 150px;
@@ -197,4 +201,42 @@ main {
 
 #help svg {
   margin: 0 auto;
+}
+
+/* Subscribe */
+.subscribe {
+  display: flex;
+  align-items: center;
+  background-color: #00539b;
+  margin-top: 40px;
+  padding: 20px;
+  color: #fff;
+}
+
+.subscribe > h1 {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.8em;
+  text-transform: capitalize;
+  margin-left: 10px;
+  margin-right: 100px;
+  padding: 15px 0px;
+}
+
+.subscribe input {
+  width: 300px;
+  font-size: 16px;
+  padding: 10px;
+  outline: none;
+}
+
+.subscribe input[type="submit"] {
+  width: 100px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.subscribe input[type="submit"]:hover {
+  opacity: 0.8;
 }
