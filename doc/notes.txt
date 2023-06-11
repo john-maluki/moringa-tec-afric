@@ -5,3 +5,6 @@ fontawesome version 4 for icons
 background images
     - https://moringaschool.com/wp-content/uploads/2021/10/intro.jpg
 
+Website used to embed map
+    - https://embedgooglemap.2yu.co/?gclid=CjwKCAjw4ZWkBhA4EiwAVJXwqdxXUczIeqlCkX4GNd3tsgI_lvDGm9q0bWrM1ejidvhDOvRnhHPmLxoCUzYQAvD_BwE
+
